@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="123" id="79F01938-5CDD-CB4D-F323-2551A6F564B9" version="3.5">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:51:41 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>79F01938-5CDD-CB4D-F323-2551A6F564B9</designId>
+</OSDM_Design>

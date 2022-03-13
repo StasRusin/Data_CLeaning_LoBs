@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="DEMIPT2" directorySegmentName="seg_0" id="60C460A7-0C1F-F816-7A7E-997F9537A530">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:05 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</SchemaObject>

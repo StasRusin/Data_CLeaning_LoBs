@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="DEMIPT2" directorySegmentName="seg_0" id="D8BBA082-7279-ABDE-12C2-308E25411E94">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjName>DEMIPT2</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:05 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<schemaObject>60C460A7-0C1F-F816-7A7E-997F9537A530</schemaObject>
+</UserOraclev10g>

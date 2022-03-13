@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FF5D9E76-4FBB-D6C1-C136-46F3C8931959" containerWithKeyObject="C50C1581-3B0A-AF21-6F5B-21E1180F6F2A" localFKIndex="C5DB715D-AC2B-8F08-8973-42F66EEEF4AF" name="SYS_C0096662">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>DEMIPT2</sourceObjSchema>
+<sourceObjName>SYS_C0096662</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:10 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<referredTableLongName>DEMIPT2.RUSN_COUNTRIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9A68F27C-DB10-3117-58A6-FDAD00C34BF6</referredTableID>
+<keyObject>41DB0728-B604-B2A3-3EF4-C54D4AD1001D</keyObject>
+<referredKeyID>41DB0728-B604-B2A3-3EF4-C54D4AD1001D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>OKSM_CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

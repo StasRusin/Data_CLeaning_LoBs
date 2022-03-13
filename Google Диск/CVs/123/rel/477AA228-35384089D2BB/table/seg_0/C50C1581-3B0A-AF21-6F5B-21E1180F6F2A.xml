@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C50C1581-3B0A-AF21-6F5B-21E1180F6F2A" schemaObject="60C460A7-0C1F-F816-7A7E-997F9537A530" name="RUSN_REGIONS">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>DEMIPT2</sourceObjSchema>
+<sourceObjName>RUSN_REGIONS</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:05 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COUNTRY_ID" id="2F7ED9BE-7781-69E7-8C67-F909E4567E91">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>RUSN_REGIONS</sourceObjSchema>
+<sourceObjName>COUNTRY_ID</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF5D9E76-4FBB-D6C1-C136-46F3C8931959" referredColumn="079E5E94-4DAB-E2BF-49B9-3201B2DFA54F"/>
+</associations>
+</Column>
+<Column name="REGION_ID" id="582E6FDE-9CB9-BD70-9FD5-F0CB560D622E">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>RUSN_REGIONS</sourceObjSchema>
+<sourceObjName>REGION_ID</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_NAME" id="26FD7FB5-D747-19FE-DC88-7D32058C4516">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>RUSN_REGIONS</sourceObjSchema>
+<sourceObjName>REGION_NAME</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6A5AD5F-BC43-D9AC-56F3-1896E86D555D" schemaObject="60C460A7-0C1F-F816-7A7E-997F9537A530" name="RUSN_REGIONS_PK">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>DEMIPT2</sourceObjSchema>
+<sourceObjName>SYS_C0096661</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:08 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="582E6FDE-9CB9-BD70-9FD5-F0CB560D622E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5DB715D-AC2B-8F08-8973-42F66EEEF4AF" name="SYS_C0096662">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:10 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F7ED9BE-7781-69E7-8C67-F909E4567E91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

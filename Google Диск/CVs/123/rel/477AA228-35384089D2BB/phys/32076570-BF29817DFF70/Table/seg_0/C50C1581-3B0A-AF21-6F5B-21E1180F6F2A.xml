@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RUSN_REGIONS" directorySegmentName="seg_0" id="C50C1581-3B0A-AF21-6F5B-21E1180F6F2A">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:05 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<schemaObject>60C460A7-0C1F-F816-7A7E-997F9537A530</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A0C00B80-2BD9-F2BF-7C6E-E85FEE2B358F</segment>
+<tableSpace>EB157212-3CB6-90CD-56CD-8B3991F7D5D7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGION_NAME" id="26FD7FB5-D747-19FE-DC88-7D32058C4516">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY_ID" id="2F7ED9BE-7781-69E7-8C67-F909E4567E91">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGION_ID" id="582E6FDE-9CB9-BD70-9FD5-F0CB560D622E">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0096662" id="C5DB715D-AC2B-8F08-8973-42F66EEEF4AF">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:10 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RUSN_REGIONS_PK" id="A6A5AD5F-BC43-D9AC-56F3-1896E86D555D">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:08 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<schemaObject>60C460A7-0C1F-F816-7A7E-997F9537A530</schemaObject>
+<segment>9A475DAE-D110-53D8-6BAA-6C487857A711</segment>
+<tableSpace>EB157212-3CB6-90CD-56CD-8B3991F7D5D7</tableSpace>
+<indexSegment>9A475DAE-D110-53D8-6BAA-6C487857A711</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

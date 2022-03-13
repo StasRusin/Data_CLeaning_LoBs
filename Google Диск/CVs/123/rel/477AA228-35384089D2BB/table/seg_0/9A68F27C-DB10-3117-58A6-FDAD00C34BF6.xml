@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A68F27C-DB10-3117-58A6-FDAD00C34BF6" schemaObject="60C460A7-0C1F-F816-7A7E-997F9537A530" name="RUSN_COUNTRIES">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>DEMIPT2</sourceObjSchema>
+<sourceObjName>RUSN_COUNTRIES</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:05 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OKSM_CODE" id="079E5E94-4DAB-E2BF-49B9-3201B2DFA54F">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>RUSN_COUNTRIES</sourceObjSchema>
+<sourceObjName>OKSM_CODE</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_NAME" id="D94C793F-8379-2E45-05A7-AD8FC1CD167C">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>RUSN_COUNTRIES</sourceObjSchema>
+<sourceObjName>COUNTRY_NAME</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_NAME_LAT" id="2B1F7DAA-ADC1-FF90-3617-21FA5D11C721">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>RUSN_COUNTRIES</sourceObjSchema>
+<sourceObjName>COUNTRY_NAME_LAT</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL_CODE" id="57C2B8FA-8C63-CBB0-DBB7-6FADF386152E">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>RUSN_COUNTRIES</sourceObjSchema>
+<sourceObjName>TEL_CODE</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41DB0728-B604-B2A3-3EF4-C54D4AD1001D" schemaObject="60C460A7-0C1F-F816-7A7E-997F9537A530" name="RUSN_COUNTRIES_PK">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>DEMIPT2</sourceObjSchema>
+<sourceObjName>SYS_C0096658</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:07 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="079E5E94-4DAB-E2BF-49B9-3201B2DFA54F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

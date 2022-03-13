@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1195441D-E251-F563-4997-5A16F09A272F" schemaObject="60C460A7-0C1F-F816-7A7E-997F9537A530" name="RUSN_STATIONS">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>DEMIPT2</sourceObjSchema>
+<sourceObjName>RUSN_STATIONS</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:05 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STATION_ID" id="D3CD4818-08C7-6A9E-968F-BEBD3EB70C27">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>RUSN_STATIONS</sourceObjSchema>
+<sourceObjName>STATION_ID</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATION_NAME" id="FB0346D8-AF09-AD56-9580-9A16E1F8B0C1">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>RUSN_STATIONS</sourceObjSchema>
+<sourceObjName>STATION_NAME</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUDE" id="6CC06384-A9FA-762E-A6B4-F98E1316EEAD">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>RUSN_STATIONS</sourceObjSchema>
+<sourceObjName>LATITUDE</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,18,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGETUDE" id="206B2DB0-A6F8-E241-F70A-5D25FB87690D">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>RUSN_STATIONS</sourceObjSchema>
+<sourceObjName>LONGETUDE</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,18,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_ID" id="1FD1E85D-3AE5-6EB7-E984-C76C99D244EC">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>RUSN_STATIONS</sourceObjSchema>
+<sourceObjName>REGION_ID</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STORAGE_CAPACITY_SOLID" id="7B09F863-99B7-2DBE-D278-F49E9EA0BA39">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>RUSN_STATIONS</sourceObjSchema>
+<sourceObjName>STORAGE_CAPACITY_SOLID</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,5,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STORAGE_CAPACITY_LIQUIDS" id="0D6179C2-6E74-FD4D-C33B-95FDD2618C8D">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>RUSN_STATIONS</sourceObjSchema>
+<sourceObjName>STORAGE_CAPACITY_LIQUIDS</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,5,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHUNTING_WAY_NUMB" id="B2BB93CD-0065-601F-CBEA-2D798FC07B4D">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>RUSN_STATIONS</sourceObjSchema>
+<sourceObjName>SHUNTING_WAY_NUMB</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84E0C3A4-5FA5-FE95-5B2F-62124A23F285" schemaObject="60C460A7-0C1F-F816-7A7E-997F9537A530" name="RUSN_STATIONS_PK">
+<sourceConnName>DE_start_test_DB</sourceConnName>
+<sourceObjSchema>DEMIPT2</sourceObjSchema>
+<sourceObjName>SYS_C0096538</sourceObjName>
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:08 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3CD4818-08C7-6A9E-968F-BEBD3EB70C27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

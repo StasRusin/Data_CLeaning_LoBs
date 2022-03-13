@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RUSN_STATIONS" directorySegmentName="seg_0" id="1195441D-E251-F563-4997-5A16F09A272F">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:05 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<schemaObject>60C460A7-0C1F-F816-7A7E-997F9537A530</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A0C00B80-2BD9-F2BF-7C6E-E85FEE2B358F</segment>
+<tableSpace>EB157212-3CB6-90CD-56CD-8B3991F7D5D7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STORAGE_CAPACITY_LIQUIDS" id="0D6179C2-6E74-FD4D-C33B-95FDD2618C8D">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGION_ID" id="1FD1E85D-3AE5-6EB7-E984-C76C99D244EC">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LONGETUDE" id="206B2DB0-A6F8-E241-F70A-5D25FB87690D">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LATITUDE" id="6CC06384-A9FA-762E-A6B4-F98E1316EEAD">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STORAGE_CAPACITY_SOLID" id="7B09F863-99B7-2DBE-D278-F49E9EA0BA39">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHUNTING_WAY_NUMB" id="B2BB93CD-0065-601F-CBEA-2D798FC07B4D">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATION_ID" id="D3CD4818-08C7-6A9E-968F-BEBD3EB70C27">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATION_NAME" id="FB0346D8-AF09-AD56-9580-9A16E1F8B0C1">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:06 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RUSN_STATIONS_PK" id="84E0C3A4-5FA5-FE95-5B2F-62124A23F285">
+<createdBy>stasr</createdBy>
+<createdTime>2022-03-13 14:54:08 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<schemaObject>60C460A7-0C1F-F816-7A7E-997F9537A530</schemaObject>
+<segment>9A475DAE-D110-53D8-6BAA-6C487857A711</segment>
+<tableSpace>EB157212-3CB6-90CD-56CD-8B3991F7D5D7</tableSpace>
+<indexSegment>9A475DAE-D110-53D8-6BAA-6C487857A711</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
