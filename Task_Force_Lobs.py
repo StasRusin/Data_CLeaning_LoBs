@@ -30,7 +30,7 @@ def main():
     #     print("{0}: {1}".format(k, i))
     # print("---------------------Printing SQL instructions & creating dictionary of misspellings: ---------------------")
 
-    insert_instr = "insert into appr_inst_lob (N, N_APPR_INST, N_LOB, N_SOTR, DATE_CREATE) values (GEN_ID(n_appr_inst_lob), {0}, {1}, 341, 'NOW');"
+    insert_instr = "insert into appr_inst_lob (N, N_APPR_INST, N_LOB, N_SOTR, DATE_CREATE) values (GEN_ID(n_appr_inst_lob, 1), {0}, {1}, 341, 'NOW');"
     # Checking if LOBs keyed by users are found either in DB_table.
     #                                           or in the misspelled values' dictionary
     # If found, creating SQL instruction. If Not, adding to misspelled values dictionary
@@ -58,14 +58,16 @@ def main():
                         print("Update data in {0}".format(meta_data_file))
 
 if __name__ == '__main__':
+# path to folder with metadata and transactional
+    working_folder = str(r"C:\......")  # path to be amended as needed
 # config and setup of metadata
-    meta_data_file = str(r'C:\Users\stasr\Google Диск\BMD\meta_data_file.xlsx')
+    meta_data_file = str(working_folder + r'\meta_data_file.xlsx')
     misspell_dict_df = pd.read_excel(meta_data_file, sheet_name="misspell_dict", header=0, index_col=None)
     lob_df = pd.read_excel(meta_data_file, sheet_name="LOBS", header=0, index_col=None)
     misspell_dict = dict()
 
 # config and setup of transactional data
-    file_path = str(r'C:\Users\stasr\Google Диск\BMD\Книга5.xlsx')
+    file_path = str(working_folder + r'\Книга5.xlsx')
     temp_dict = dict()
 
 # checkin that misspell table in meta_data file is filled entirely
